@@ -10,7 +10,7 @@ Install using composer:
 composer require kravanh/voyager-label-translate
 ```
 
-Then add the service provider to the configuration:
+Add LabelTranslateServiceProvider to the providers array of your Laravel v5.4 application's config/app.php
 
 ```php
 'providers' => [
