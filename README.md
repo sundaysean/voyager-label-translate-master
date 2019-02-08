@@ -12,8 +12,15 @@ composer require kravanh/voyager-label-translate
 
 Then add the service provider to the configuration:
 
-```bash
+```php
 'providers' => [
     KRAVANH\LabelTranslateServiceProvider::class,
 ],
 ```
+
+## Usage
+
+Create Key In Backend Then Go to View Call:
+
+```blade
+@lang('your_key') or __('your_key')
