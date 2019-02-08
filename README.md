@@ -1,4 +1,3 @@
-# voyager-label-translate-master
 # Voyager Label Translate Master
 
 Create Label Translate For Multi Languages (Voyager)
