@@ -1,0 +1,29 @@
+{
+    "name": "kravanh/voyager-label-translate",
+    "description": "Create Label Translate For Multi Languages",
+    "tags": ["voyager"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "sundaysean",
+            "email": "sundaysean1@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "larapack/hooks": "~1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "KRAVANH\\": "src/"
+        }
+    },
+    "extra": {
+        "hook": {
+          "providers": [
+            "KRAVANH\\LabelTranslateServiceProvider"
+          ]
+        }
+      }
+}
