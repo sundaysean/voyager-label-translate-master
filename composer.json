@@ -20,7 +20,7 @@
         }
     },
     "extra": {
-        "hook": {
+        "laravel": {
           "providers": [
             "KRAVANH\\LabelTranslateServiceProvider"
           ]
